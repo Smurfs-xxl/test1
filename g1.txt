@@ -1,0 +1,21 @@
+主分支：master
+
+开发分支：develop
+
+hotfix分支：线上bug修复，从master拉取hotfix分支。
+
+命名为:hotfix_姓名简写_日期_[修复描述]，例如：hotfix_lxk_20200731_fixContract
+
+feature分支:功能开发分支，从develop分支拉取出。
+
+命名为:feature_姓名简写_日期_[功能描述 | jira号]，例如：feature_lxk_20200731_xxx-121
+
+release分支：小组人员功能开发好之后把各自的feature分支合并到develop分支后
+
+                        从develop拉取出的上线分支。
+
+命名为:release_版本号。例如：release_v1.0.0
+
+标签tag: 发布上线完成后，release分支合并到master中，然后在master上打tag
+
+命名为：tag_版本号。例如: tag_v1.0.0
